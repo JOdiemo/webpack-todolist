@@ -1,19 +1,23 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+To Do List
+This project is to create a daily list of things to do. It involes being able to add items to o be done, to remove what has been done and finally to edit an item in case the need arises.
 
-> Description the project.
+Use webpack to bundle JavaScript.
+Learn how to use proper ES6 syntax.
+Use ES6 modules to write modular JavaScript.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Javascript
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://github.com/JOdiemo/webpack-todo-list/tree/todo-list-structure)
 
 
 ## Getting Started
@@ -42,22 +46,14 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- GitHub: [@JOdiemo](https://github.com/JOdiemo/)
+- Twitter: [@JorumOdiemo](https://twitter.com/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jorumodiemo/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
+Feel free to check the [issues page](../../issues/).git
 ## Show your support
 
 Give a ⭐️ if you like this project!
