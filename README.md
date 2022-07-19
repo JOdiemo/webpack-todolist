@@ -7,6 +7,7 @@ This project is to create a daily list of things to do. It involes being able to
 Use webpack to bundle JavaScript.
 Learn how to use proper ES6 syntax.
 Use ES6 modules to write modular JavaScript.
+Write unit tests for a JavaScript app.
 
 
 ## Built With
