@@ -16,8 +16,9 @@ document.body.innerHTML = `
 </div>
 </div>
 `;
-
+// Add and remove test
 describe('add and remove', () => {
+  // Add test
   test('addion test', () => {
     const todosList = new Todos();
     const newTodo = {
@@ -37,7 +38,7 @@ describe('add and remove', () => {
     todosList.addItems(newTodo1);
     expect(todosList.list).toHaveLength(2);
   });
-
+// Remove test
   test('removal test', () => {
     const todoList = new Todos();
     const newTodo = {
@@ -52,7 +53,7 @@ describe('add and remove', () => {
     expect(todoList.list).toHaveLength(2);
   });
 });
-
+// edit test
 describe("Edit and Clear", () => {
   test('Edit test', () => {
     const todoList = new Todos();
@@ -67,6 +68,7 @@ describe("Edit and Clear", () => {
     expect(todoList.list[2].description).toMatch("Good Lord")
     expect(todoList.list).toHaveLength(3)
   })
+  // Clear all completed test
   test('Clear All test', () => {
     const todoList = new Todos();
     const newTodo4 = {
@@ -76,9 +78,10 @@ describe("Edit and Clear", () => {
       index: 5
     }
     todoList.addItems(newTodo4);
-    expect(todoList.list).toHaveLength(4)
-    todoList.completeTodo(newTodo4.id);
-    expect(todoList.list).toHaveLength(3)
+    expect(todoList.list).toHaveLength(4);
+    todoList.completeTodo(newTodo4.id,true);
+    todoList.clearCompletedTodos() 
+    expect(todoList.list).toHaveLength(3);
   })
 
 
