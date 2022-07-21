@@ -53,6 +53,36 @@ describe('add and remove', () => {
   });
 });
 
+describe("Edit and Clear", () => {
+  test('Edit test', () => {
+    const todoList = new Todos();
+    const newTodo3 = {
+      id: '9999',
+      description: "testEdit",
+      completed: false,
+      index: 4
+    }
+    todoList.addItems(newTodo3);
+    todoList.editTodo(newTodo3.id,"Good Lord");
+    expect(todoList.list[2].description).toMatch("Good Lord")
+    expect(todoList.list).toHaveLength(3)
+  })
+  test('Clear All test', () => {
+    const todoList = new Todos();
+    const newTodo4 = {
+      id: '5555',
+      description: "testEdit",
+      completed: true,
+      index: 5
+    }
+    todoList.addItems(newTodo4);
+    expect(todoList.list).toHaveLength(4)
+    todoList.completeTodo(newTodo4.id);
+    expect(todoList.list).toHaveLength(3)
+  })
+
+
+})
 const localStorageMock = (() => {
   let store = {};
   return {
