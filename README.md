@@ -51,6 +51,12 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@JOdiemo](https://github.com/JOdiemo/)
 - Twitter: [@JorumOdiemo](https://twitter.com/)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jorumodiemo/)
+
+👤 **Author2**
+   - GitHub:[@pamphilemkp](https://github.com/pamphilemkp)
+   - Twitter:[@pamphilemkp](https://github.com/PamphileMusonda)
+   - LinkedIn:[@pamphilemkp](https://github.com/PamphileMusonda-2bb8a9237)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

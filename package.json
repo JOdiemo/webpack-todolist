@@ -35,9 +35,17 @@
   "dependencies": {
     "lodash": "^4.17.21"
   },
-  "jest":{
+  "jest": {
     "testEnvironment": "jsdom"
   },
   "main": "webpack.config.js",
-  "description": ""
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOdiemo/webpack-todolist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JOdiemo/webpack-todolist/issues"
+  },
+  "homepage": "https://github.com/JOdiemo/webpack-todolist#readme"
 }
