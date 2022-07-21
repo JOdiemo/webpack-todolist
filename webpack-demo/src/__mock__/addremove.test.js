@@ -62,12 +62,12 @@ describe('Edit and Clear', () => {
       description: 'testEdit',
       completed: false,
       index: 4,
-    }
+    };
     todoList.addItems(newTodo3);
     todoList.editTodo(newTodo3.id, 'Good Lord');
     expect(todoList.list[2].description).toMatch('Good Lord');
     expect(todoList.list).toHaveLength(3);
-  })
+  });
   // Clear all completed test
   test('Clear All test', () => {
     const todoList = new Todos();
@@ -76,15 +76,14 @@ describe('Edit and Clear', () => {
       description: 'testEdit',
       completed: true,
       index: 5,
-    }
+    };
     todoList.addItems(newTodo4);
     expect(todoList.list).toHaveLength(4);
     todoList.completeTodo(newTodo4.id, true);
-    todoList.clearCompletedTodos() 
+    todoList.clearCompletedTodos();
     expect(todoList.list).toHaveLength(3);
   });
-
-})
+});
 const localStorageMock = (() => {
   let store = {};
   return {
