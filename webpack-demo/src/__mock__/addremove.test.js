@@ -26,8 +26,16 @@ describe('add and remove', () => {
       completed: false,
       index: 1,
     };
+    const newTodo1 = {
+      id: '1235',
+      description: 'testAdd2',
+      completed: false,
+      index: 2,
+    };
     todosList.addItems(newTodo);
     expect(todosList.list).toHaveLength(1);
+    todosList.addItems(newTodo1);
+    expect(todosList.list).toHaveLength(2);
   });
 
   test('removal test', () => {
@@ -36,12 +44,12 @@ describe('add and remove', () => {
       id: '5678',
       description: 'testRemove1',
       completed: false,
-      index: 2,
+      index: 3,
     };
     todoList.addItems(newTodo);
     todoList.removeItems(newTodo.id);
-    expect(todoList.list[0].description).toBe('testAdd1');
-    expect(todoList.list).toHaveLength(1);
+    expect(todoList.list[1].description).toBe('testAdd2');
+    expect(todoList.list).toHaveLength(2);
   });
 });
 
