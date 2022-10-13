@@ -38,7 +38,6 @@ describe('add and remove', () => {
     todosList.addItems(newTodo1);
     expect(todosList.list).toHaveLength(2);
   });
-
   // Remove test
   test('removal test', () => {
     const todoList = new Todos();
@@ -54,7 +53,6 @@ describe('add and remove', () => {
     expect(todoList.list).toHaveLength(2);
   });
 });
-
 // edit test
 describe('Edit and Clear', () => {
   test('Edit test', () => {
@@ -70,7 +68,6 @@ describe('Edit and Clear', () => {
     expect(todoList.list[2].description).toMatch('Good Lord');
     expect(todoList.list).toHaveLength(3);
   });
-
   // Clear all completed test
   test('Clear All test', () => {
     const todoList = new Todos();
@@ -87,7 +84,6 @@ describe('Edit and Clear', () => {
     expect(todoList.list).toHaveLength(3);
   });
 });
-
 const localStorageMock = (() => {
   let store = {};
   return {
@@ -105,7 +101,6 @@ const localStorageMock = (() => {
     },
   };
 })();
-
 Object.defineProperty(window, 'localStorage', {
   value: localStorageMock,
 });
