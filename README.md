@@ -1,34 +1,37 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-To Do List
-This project is to create a daily list of things to do. It involes being able to add items to o be done, to remove what has been done and finally to edit an item in case the need arises.
+# TO DO LIST Project
 
-Use webpack to bundle JavaScript.
-Learn how to use proper ES6 syntax.
-Use ES6 modules to write modular JavaScript.
-Write unit tests for a JavaScript app.
+
+> "To-Do-List" is a tool that helps to organize your day. It simply lists the things that one need to do and can be marked them as complete. This project is built using ES6 and Webpack. JavaScript arrays and objects are utilised to complete the project. The items can be added and removed from the list also.
 
 
 ## Built With
 
-- HTML
-- CSS
-- Javascript
+HTML
+
+CSS
+
+JAVASCRIPT
+
+ES6
+
+WEBPACK
+
+JEST
+
+
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://jodiemo.github.io/webpack-todolist/webpack-demo/dist/)
 
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Create a repository, clone it in the local location.
 
-
-To get a local copy up and running follow these simple example steps.
+Following the instructions progress is made.
 
 ### Prerequisites
 
@@ -46,32 +49,26 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Tanusri Ghosh**
 
-- GitHub: [@JOdiemo](https://github.com/JOdiemo/)
-- Twitter: [@JorumOdiemo](https://twitter.com/)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jorumodiemo/)
-
-👤 **Author2**
-   - GitHub:[@pamphilemkp](https://github.com/pamphilemkp)
-   - Twitter:[@pamphilemkp](https://github.com/PamphileMusonda)
-   - LinkedIn:[@pamphilemkp](https://github.com/PamphileMusonda-2bb8a9237)
+- GitHub: https://github.com/chuaindia
+- Twitter: https://twitter.com/chuaghosh25
+- LinkedIn: https://www.linkedin.com/in/tanusri-ghosh-2a56b814
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).git
+Feel free to check the [issues page](../../issues/).
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
+
